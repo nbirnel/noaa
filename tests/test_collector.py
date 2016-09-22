@@ -5,7 +5,7 @@ import unittest
 class EndOfDataTest(unittest.TestCase):
 
     def test_end_of_data(self):
-        assertTrue(noaa.end_of_data({}))
+        assert True(noaa.end_of_data({}))
 
 
 
