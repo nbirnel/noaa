@@ -1,0 +1,1 @@
+curl -H "token:$token" "$url/stations?locationid=FIPS:53&limit=1000&offset=2000" >st2
